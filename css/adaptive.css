@@ -1,0 +1,529 @@
+@media screen and (max-width: 1229px) {
+    #main-container {
+        flex-wrap: nowrap;
+    }
+
+    #order-content {
+        max-width: 720px;
+        margin: 0 auto;
+        padding-top: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #order-content .order-macaroons {
+        margin: 140px 15px 0;
+    }
+
+    #information-container .Strawberry-two {
+        position: absolute;
+        bottom: 240px;
+        right: 41px;
+    }
+    .present {
+        right: 100px;
+    }
+}
+
+/* 768 1023 */
+@media screen and (max-width: 1023px) {
+    #header .number-logo {
+        display: none;
+    }
+
+    #header {
+        max-width: 768px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    #main-container {
+        padding: 102px 20px 422px;
+        max-width: 768px;
+        position: relative;
+
+    }
+
+    #img-big {
+        width: 529px;
+        position: absolute;
+        top: 412px;
+        left: 190px;
+    }
+
+    #img-big img {
+      max-width: 330px;
+    }
+
+    #header {
+        justify-content: flex-start;
+    }
+
+    #links {
+        margin-left: 104px;
+    }
+
+    .img-big {
+        width: 300px;
+    }
+    .img-bg img {
+        margin-top: -67px;
+
+    }
+
+    #order-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 120px;
+    }
+
+    #number-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 871px;
+    }
+
+    .number-block-glav {
+        margin: 45px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #number {
+        padding-top: 45px;
+        padding-bottom: 85px;
+    }
+
+    #content-container {
+        display: block;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #order-content .img-macaroons {
+        top: -59px;
+        left: 38px;
+    }
+
+    .text-block-two {
+        max-width: 664px;
+        text-align: center
+    }
+
+    #info img {
+        margin-top: 40px;
+    }
+
+    #h1 {
+        margin-left: -280px;
+    }
+
+    .text-title{
+        margin-left: -280px;
+    }
+    #information-container {
+        max-width: 768px;
+        position: relative;
+    }
+
+    .btn{
+        margin-left: -280px;
+    }
+    #information-img {
+        order: 2;
+    }
+
+    #information-user {
+        order: 1;
+        margin: 0;
+    }
+
+    #information-title {
+        width: 408px;
+    }
+
+    #information-img {
+        width: 350px;
+
+        position: absolute;
+        right: 20px;
+        bottom: 65px;
+    }
+
+    #information-img img {
+        width: 352px;
+        margin-left: -303px;
+    }
+
+   #footer-container {
+       justify-content: space-evenly;
+   }
+    #big_img {
+        display: block;
+        text-align: center;
+    }
+
+    .Strawberry {
+        top: 339px;
+        left: 359px;
+    }
+
+    #information-container .Strawberry-two {
+        bottom: 541px;
+        right: 114px;
+    }
+
+    #big_img {
+        margin-top: 45px;
+    }
+
+}
+
+
+@media screen and (max-width: 1140px) {
+    #header {
+        justify-content: space-around;
+    }
+    #links {
+        margin: 0;
+    }
+    .number-logo{
+        margin: 0;
+    }
+
+    #footer-container {
+        justify-content: space-around;
+    }
+}
+
+/* 425 767 */
+@media screen and (max-width: 768px) {
+    #main-container {
+        display: block;
+        padding: 0 15px 40px;
+    }
+
+    #header {
+        justify-content: space-around;
+    }
+
+    #links {
+        margin-left: 20px;
+    }
+
+    .link {
+        margin-right: 26px;
+    }
+
+    #img-big {
+        position: sticky;
+        width: 250px;
+        margin: 38px auto;
+    }
+
+    #big_img {
+        margin-top: 45px;
+    }
+
+    #information-img {
+        display: block;
+        width: 100px;
+    }
+
+    #h1 {
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+        max-width: 400px;
+
+    }
+
+    .text-title {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #one-block {
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .btn {
+        margin-top: 40px;
+    }
+
+    .title-number {
+        font-size: 18px;
+    }
+
+    .text-number {
+        width: 163px;
+        font-size: 13px;
+    }
+
+    .number-block-glav {
+        margin: 45px 8px;
+        max-width: 640px;
+    }
+
+    #number-container {
+        max-width: 560px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    #footer-container {
+        flex-direction: column;
+        position: relative;
+        padding: 50px 15px 130px 15px;
+    }
+
+    #prava {
+        position: absolute;
+        bottom: 75px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer-container .logo {
+        order: 1;
+    }
+
+    #instagram {
+        order: 3;
+        margin-top: 40px;
+    }
+
+    #footer-container .number-logo {
+        order: 2;
+        margin-top: 35px;
+    }
+
+}
+
+
+@media screen and (max-width: 470px) {
+    #links {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #f2f3f4ab;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    .link {
+        margin: 21px 5px;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #burger svg {
+        width: 30px;
+        height: 30px;
+        fill: #821328;
+    }
+
+    #links.open {
+        display: flex;
+    }
+
+    #links svg {
+        display: block;
+        width: 25px;
+        height: 25px;
+        fill: #821328;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .Strawberry-two {
+        display: none;
+    }
+
+    .Strawberry {
+        top: 238px;
+        left: 230px;
+    }
+
+
+}
+
+/* 375 430 */
+@media screen and (max-width: 430px) {
+    .btn {
+        margin-top: 40px;
+        margin-left: -12px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+    #one-block {
+        margin: 0;
+    }
+
+    #h1 {
+        margin-left: -12px;
+    }
+
+    #img-big img {
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 250px;
+    }
+
+    .text-title {
+        margin-left: -12px;
+    }
+
+    #order-content .order-macaroons {
+        margin: 120px 15px 0;
+    }
+
+    #img-big {
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-right: 49px;
+    }
+
+    .title-block-two {
+        padding-top: 100px;
+        font-size: 30px;
+        line-height: 35px;
+        width: 370px;
+        margin-left:20px;
+    }
+
+    .text-block-two {
+        margin-top: 49px;
+        margin-left:15px;
+    }
+
+    #big_img {
+        margin-top: 63px;
+        margin-left:15px;
+    }
+
+    .text-number {
+        width: 165px;
+    }
+
+    #number {
+        padding-top: 28px;
+        padding-bottom: 78px;
+    }
+
+    .number-block-glav {
+        margin: 22px 2px;
+    }
+
+
+    #information-user {
+        width: 344px;
+    }
+
+    #title-order {
+        font-size: 30px;
+        line-height: 55px;
+        padding-top: 100px;
+    }
+
+    .order-macaroons {
+        margin-top: 120px;
+    }
+
+    #order-content {
+        padding-bottom: 100px;
+    }
+
+    #information-title {
+        font-size: 30px;
+        line-height: 35px;
+        width: 360px;
+    }
+
+    #information-text {
+        width: 360px;
+    }
+
+    #information-img {
+        display: none;
+    }
+
+    #info-user {
+        max-width: 100%;
+    }
+
+    #header {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* 320 374 */
+@media screen and (max-width: 374px) {
+    #information-title {
+        width: 300px;
+    }
+
+    #information-text {
+        width: 300px;
+    }
+
+    .img-big {
+        width: 259px;
+    }
+
+    .title-block-two {
+        width: 300px;
+    }
+
+    .text-title {
+        margin: 0;
+        width: 280px;
+    }
+    .text-number {
+        width: 100%;
+    }
+    #number {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .number-block-glav {
+        width: 100%;
+    }
+
+    #title-order {
+        line-height: normal;
+    }
+}
+@media screen and (max-width: 321px) {
+    #info-user {
+        max-width: 290px;
+    }
+
+}
